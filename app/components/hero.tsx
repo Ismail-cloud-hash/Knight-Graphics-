@@ -49,7 +49,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section ref={containerRef} className="relative w-full flex flex-col bg-[#050505]">
+    <section id="hero" ref={containerRef} className="relative w-full flex flex-col bg-[#050505]">
       
       {/* Top Section (Light) */}
       <div className="w-full bg-[#fdfdfd] pt-40 pb-48 md:pb-64 px-6 flex flex-col items-center text-center relative z-0">

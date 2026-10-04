@@ -1,3 +1,4 @@
+import Navigation from "./components/navigation";
 import Hero from "./components/hero";
 import Marquee from "./components/Marquee";
 import Services from "./components/Services";
@@ -9,7 +10,8 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <main className="bg-white overflow-hidden">
+    <main className="bg-white overflow-hidden relative">
+      <Navigation />
       <Hero />
       <Marquee />
       <div style={{ marginTop: "-80px", position: "relative", zIndex: 10 }}>

@@ -32,7 +32,7 @@ export default function CtaBanner() {
         setStep(0); // Stay on step 1 so they can visually confirm
         
         setTimeout(() => {
-          const ctaElement = document.getElementById('cta-banner');
+          const ctaElement = document.getElementById('contact') || document.getElementById('cta-banner');
           if (ctaElement) {
             ctaElement.scrollIntoView({ behavior: 'smooth' });
           }
@@ -86,7 +86,7 @@ export default function CtaBanner() {
   };
 
   return (
-    <section id="cta-banner" className="w-full bg-red-600 py-24 md:py-40 border-b border-red-700">
+    <section id="contact" data-section="cta-banner" className="w-full bg-red-600 py-24 md:py-40 border-b border-red-700">
       <div className="max-w-[1000px] mx-auto px-6 md:px-12 flex flex-col items-center">
 
         {/* Progress / Step Indicator */}

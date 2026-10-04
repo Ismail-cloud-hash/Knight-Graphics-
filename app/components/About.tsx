@@ -23,9 +23,12 @@ export default function About() {
           <p className="text-zinc-600 text-sm md:text-base leading-relaxed max-w-md mb-12 font-light">
             Led by founder Ismail Yousuf, we blend high-end aesthetics with data-driven strategy to deliver websites, social media content, and branding that doesn&apos;t just look good - it performs.
           </p>
-          <button className="bg-transparent border border-red-200 text-black px-8 py-4 text-[10px] font-black tracking-[0.2em] uppercase hover:bg-red-50 transition-colors duration-300">
+          <a 
+            href="#contact" 
+            className="inline-flex items-center gap-2 bg-black text-white hover:bg-red-600 px-8 py-4 text-[10px] font-black tracking-[0.2em] uppercase transition-all duration-300 shadow-lg hover:shadow-red-600/20"
+          >
             Let&apos;s Talk &rarr;
-          </button>
+          </a>
         </div>
         
         {/* Right Column: Stylized Founder Image */}
