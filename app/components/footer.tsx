@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 export default function Footer() {
   const [modalContent, setModalContent] = useState<"privacy" | "terms" | null>(null);
@@ -10,7 +11,7 @@ export default function Footer() {
     { label: "BESPOKE WEBSITES", href: "#services" },
     { label: "SOCIAL MEDIA GROWTH", href: "#services" },
     { label: "SIGNAGE & PRINT", href: "#portfolio" },
-    { label: "DIRECT WHATSAPP", href: "https://wa.me/94778545574?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project.", external: true },
+    { label: "DIRECT WHATSAPP", href: "https://wa.me/94742440640?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project.", external: true },
   ];
 
   const pageLinks = [
@@ -29,12 +30,17 @@ export default function Footer() {
         
         {/* LEFT COLUMN */}
         <div className="flex flex-col justify-between max-w-full md:max-w-sm w-full">
-          <div className="border border-[#FF0000] rounded-full px-3 py-1 inline-block w-fit mb-6">
-            <span className="text-[#FF0000] text-[10px] font-bold tracking-[0.25em] uppercase font-mono">
-              KNIGHT GRAPHICS
-            </span>
+          <div className="mb-8 relative w-64 h-20 sm:w-80 sm:h-24 mix-blend-multiply">
+            <Image
+              src="/kgfooter.jpg"
+              alt="Knight Graphics"
+              fill
+              sizes="320px"
+              className="object-contain object-left contrast-125 brightness-110"
+              priority
+              unoptimized
+            />
           </div>
-
           <h2>
             <span className="block font-playfair italic text-4xl md:text-5xl text-black font-normal mb-2">
               Let's
@@ -123,10 +129,10 @@ export default function Footer() {
                 HOTLINES & EMAIL:
               </div>
               <a 
-                href="tel:+94778545574" 
+                href="tel:+94742440640" 
                 className="text-black font-mono text-xs font-semibold hover:text-[#FF0000] transition-colors duration-200 mb-1"
               >
-                +94 77 854 5574 / +94 74 244 0640
+                +94 74 244 0640
               </a>
               <a 
                 href="mailto:knightgraphicsl@gmail.com" 
@@ -210,7 +216,7 @@ export default function Footer() {
                     Project timelines, milestone schedules, and fabrication warranties are established in our initial project agreement. Revisions are honored within the specified milestone parameters.
                   </p>
                   <p>
-                    For official contract inquiries, contact founder Ismail Yousuf at <span className="font-mono text-black">+94 77 854 5574</span>.
+                    For official contract inquiries, contact founder Ismail Yousuf at <span className="font-mono text-black">+94 74 244 0640</span>.
                   </p>
                 </>
               )}

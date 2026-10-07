@@ -40,11 +40,9 @@ export default function About() {
               src="/founder.jpeg" 
               alt="Ismail Yousuf - Founder of Knight Graphics" 
               fill
-              className="object-cover grayscale contrast-125 brightness-90 group-hover:scale-105 transition-transform duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)]"
+              className="object-cover group-hover:scale-105 transition-transform duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)]"
             />
             
-            {/* Red Overlay for Vibe */}
-            <div className="absolute inset-0 bg-[#FF0000] mix-blend-multiply opacity-40 group-hover:opacity-10 transition-opacity duration-700"></div>
 
             {/* Grain Texture Overlay */}
             <div className="absolute inset-0 opacity-[0.1] pointer-events-none mix-blend-screen" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '12px 12px' }}></div>

@@ -161,7 +161,7 @@ export default function Navigation() {
 
             {/* Direct WhatsApp Quick Chat */}
             <a
-              href="https://wa.me/94778545574?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project."
+              href="https://wa.me/94742440640?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:flex items-center justify-center w-9 sm:w-10 h-9 sm:h-10 rounded-full bg-[#141414] hover:bg-[#25D366] text-zinc-300 hover:text-white transition-colors duration-200 border border-white/[0.08]"
@@ -291,10 +291,10 @@ export default function Navigation() {
                   Direct Hotline
                 </span>
                 <a
-                  href="tel:+94778545574"
+                  href="tel:+94742440640"
                   className="text-xs font-mono font-bold text-white hover:text-red-500"
                 >
-                  +94 77 854 5574
+                  +94 74 244 0640
                 </a>
               </div>
               <div className="flex items-center justify-between">
@@ -310,7 +310,7 @@ export default function Navigation() {
               </div>
 
               <a
-                href="https://wa.me/94778545574?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project."
+                href="https://wa.me/94742440640?text=Hi%20Knight%20Graphics,%20I'd%20like%20to%20discuss%20a%20project."
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => setMobileMenuOpen(false)}

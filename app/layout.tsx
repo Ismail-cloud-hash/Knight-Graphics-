@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Preloader from "./components/Preloader";
+import WhatsAppButton from "./components/WhatsAppButton";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -44,6 +45,7 @@ export default function RootLayout({
       <body className="bg-[#0A0A0A] text-white min-h-[100dvh] flex flex-col font-sans overflow-x-hidden">
         <Preloader />
         {children}
+        <WhatsAppButton />
       </body>
     </html>
   );

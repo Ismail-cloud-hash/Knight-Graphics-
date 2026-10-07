@@ -197,7 +197,7 @@ const portfolioProjects: Project[] = [
     location: "Colombo 10, Sri Lanka",
     verifiedDetails: {
       addressOrChannel: "174 - B, Jayantha Weerasekara Mawatha, Colombo - 10",
-      contactOrMetric: "Hotlines: 0778545574 · 0787066663",
+      contactOrMetric: "Hotline: 0742440640",
       highlights: [
         "Wholesale & Retail Bike Modification: Exhausts, Body Kits, LED Lights, Helmets",
         "Heavy-duty outdoor roadside storefront fascia billboard mounted high on facade",
@@ -659,7 +659,7 @@ export default function Portfolio() {
                     {row3LeftProject.summary}
                   </p>
                   <div className="pt-4 border-t border-zinc-100 flex items-center justify-between text-xs font-mono">
-                    <span className="text-zinc-500 font-bold">Colombo 10 · 0778545574</span>
+                    <span className="text-zinc-500 font-bold">Colombo 10 · 0742440640</span>
                     <span className="text-[#E60000] font-bold group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
                       Fascia & Signage &rarr;
                     </span>
@@ -765,7 +765,7 @@ export default function Portfolio() {
           </div>
 
           <a
-            href="https://wa.me/94778545574?text=Hi%20Knight%20Graphics,%20I%20would%20like%20to%20discuss%20a%20project."
+            href="https://wa.me/94742440640?text=Hi%20Knight%20Graphics,%20I%20would%20like%20to%20discuss%20a%20project."
             target="_blank"
             rel="noopener noreferrer"
             className="px-7 py-3.5 bg-black hover:bg-[#E60000] text-white text-xs font-mono font-bold uppercase tracking-widest rounded-full transition-colors duration-200 shadow-md flex items-center gap-2 cursor-pointer shrink-0"

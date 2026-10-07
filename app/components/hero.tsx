@@ -57,10 +57,6 @@ export default function Hero() {
         {/* Elegant Premium Gradient Background */}
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-zinc-100 via-white to-white opacity-80 z-0"></div>
         
-        <div className="hero-anim relative z-10 inline-flex items-center gap-2 px-4 py-1.5 bg-zinc-100 rounded-full mb-8">
-           <span className="w-1.5 h-1.5 bg-red-600 rounded-full animate-pulse"></span>
-           <span className="text-[9px] font-bold uppercase tracking-widest text-zinc-600">Elevating Digital Experiences</span>
-        </div>
 
         <h1 className="hero-anim relative z-10 text-5xl md:text-7xl lg:text-[85px] font-black uppercase text-[#111] max-w-6xl leading-[1.05] tracking-tighter mb-6">
           Scaling Your Business With <br className="hidden lg:block" />
